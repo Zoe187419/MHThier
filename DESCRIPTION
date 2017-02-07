@@ -1,0 +1,13 @@
+Package: MHThier
+Type: Package
+Title: Multiple Hypotheses Testing for Hierarchical Data
+Version: 0.1.0
+Imports: igraph, methods, phyloseq, ape
+Suggests: structSSI, multtest, FixSeqMTP
+Author: Yalin Zhu, Wenge Guo, Gavin Lynch
+Maintainer: Yalin Zhu <yalin.zhu@outlook.com>
+BugReports: https://github.com/allenzhuaz/MHThier/issues
+Description: This package performs several multiple testing procedures that consider hierarchical structure among the tested hypotheses. The generalized hierarchical procedures control the FDR under various forms of dependence structure such as positive dependence and block dependence. Our functions provide an option to choose the type of dependence.
+License: GPL (>= 2)
+Encoding: UTF-8
+LazyData: true
